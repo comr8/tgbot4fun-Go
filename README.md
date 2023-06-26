@@ -1,10 +1,12 @@
 # Hey there! And Welcome to the my Telegram Bot's personal page.
 ## It's simple Telegram bot made just for fun &amp; used for practice :smile:
-![GitHub go.mod Go version (subdirectory of monorepo)](https://img.shields.io/github/go-mod/go-version/go-telegram-bot-api/telegram-bot-api?style=plastic)
-### You can find my bot [here](https://t.me/dGhlX21vc3RfdG9sZXJhbnRfYm90_bot) 
-![Static Badge](https://img.shields.io/badge/bot-here-green?link=https://t.me/dGhlX21vc3RfdG9sZXJhbnRfYm90_bot)
+![bot version](https://img.shields.io/badge/v-0.1.2-green?style=plastic)  ![go version](https://img.shields.io/github/go-mod/go-version/go-telegram-bot-api/telegram-bot-api?style=plastic) 
+### You can try my bot [here](https://t.me/dGhlX21vc3RfdG9sZXJhbnRfYm90_bot) 
 
-[![logo](/logo/photo_2023-06-26_21-21-57.jpg)](https://t.me/dGhlX21vc3RfdG9sZXJhbnRfYm90_bot)
+<a href="https://t.me/dGhlX21vc3RfdG9sZXJhbnRfYm90_bot">
+  <img src="./logo/photo_2023-06-26_21-21-57.jpg" width="300"/>
+</a>
+
 + As the owner of this bot, I've customized it to fit my personal preferences and interests. Using the Telegram Bot API and GO programming language, I've equipped my bot with all sorts of fun and useful features.
 +  I do not intend to offend or harm anyone. The use of this code remains at your own conscience and under your responsibility. 
 Peace for everyone :blue_heart:
@@ -35,3 +37,4 @@ Goals and TODO
 - [ ] Add supporting for work with inline mode
 - [ ] Add supporting for work with buttons
 - [ ] Rework the user's primary usage path
+
