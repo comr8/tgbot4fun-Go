@@ -19,6 +19,14 @@ github.com/go-telegram-bot-api/telegram-bot-api
 Default packages: "fmt", "encoding/json", "net/http", "io", "time", "math/rand" 
 ```
 ___
+Main bot's features:
++ Get actual BTC/USD, USD/RUB and EUR/RUB rate :money_with_wings:
++ Get info about sharing free games in Epic Games :video_game:
++ Get random gif for answer yes/no/maybe or just get random gif :cactus:
++ Get randomly generated insult for somebody :goberserk:
++ Generator of future events forecast with crazy facts and especial people :trollface:
++ Advisor "what should you do on your day off" :beers:
+___
 If for some reason you decide to use this code :smile: then for your own bot based on this code you need to:
 1. Install GO and setup GO environment;
 2. Clone this repo to your local machine;
@@ -29,6 +37,8 @@ If for some reason you decide to use this code :smile: then for your own bot bas
 7. Voila, enjoy the result.
 
    ![](/logo/gopher-powerful.gif)
+
+
 ___
 Goals and TODO
 - [x] Create main structure
