@@ -7,7 +7,7 @@
   <img src="./logo/photo_2023-06-26_21-21-57.jpg" width="300"/>
 </a>
 
-+ As the owner of this bot, I've customized it to fit my personal preferences and interests. Using the Telegram Bot API and GO programming language, I've equipped my bot with all sorts of fun and useful features.
++ As the developer of this bot's code, I've customized it to fit my personal preferences and interests. Using the Telegram Bot API and GO programming language, I've equipped my bot with all sorts of fun and useful features.
 +  I do not intend to offend or harm anyone. The use of this code remains at your own conscience and under your responsibility. 
 Peace for everyone :blue_heart:
 ___
