@@ -1,8 +1,13 @@
 # Hey there! And Welcome to the my Telegram Bot's personal page.
 ## It's simple Telegram bot made just for fun &amp; used for practice :smile:
-![bot version](https://img.shields.io/badge/v-0.1.2-green?style=plastic)  ![go version](https://img.shields.io/github/go-mod/go-version/go-telegram-bot-api/telegram-bot-api?style=plastic) 
-### You can try my bot [here](https://t.me/dGhlX21vc3RfdG9sZXJhbnRfYm90_bot) 
+<img src="https://img.shields.io/badge/Made With-Go_v1.19-blue">
+<img src="https://img.shields.io/badge/bot-v0.1.2-yellowgreen">
+</a>
+<a href=https://t.me/dGhlX21vc3RfdG9sZXJhbnRfYm90_bot>
+  <img src="https://img.shields.io/badge/Try_it-now-green"></a>
 
+### You can try my bot [here](https://t.me/dGhlX21vc3RfdG9sZXJhbnRfYm90_bot)
+ 
 <a href="https://t.me/dGhlX21vc3RfdG9sZXJhbnRfYm90_bot">
   <img src="./logo/photo_2023-06-26_21-21-57.jpg" width="300"/>
 </a>
