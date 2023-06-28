@@ -45,7 +45,9 @@ func TelegramBot() {
 		msg.ReplyToMessageID = update.Message.MessageID
 
 		var resp string
-		if strings.Contains(msg.Text, "/insultsmb") {
+		if strings.Contains(msg.Text, "/start") {
+			resp = "Bot started..."
+		} else if strings.Contains(msg.Text, "/insultsmb") {
 			names := strings.Split(msg.Text, " ")
 			var namesForReturn string
 			if len(names) >= 2 {
@@ -80,3 +82,51 @@ func TelegramBot() {
 		SendMessage(update.Message.Chat.ID, resp, bot)
 	}
 }
+
+//TODO Добавить поддержку inline mode
+//TODO Добавить поддержку кнопок
+
+/*
+
+https://gitlab.com/Athamaxy/telegram-bot-tutorial/-/blob/main/TutorialBot.go
+https://qna.habr.com/q/1287104
+var (
+	// Menu texts
+	firstMenu  = "<b>Menu 1</b>\n\nA beautiful menu with a shiny inline button."
+	secondMenu = "<b>Menu 2</b>\n\nA better menu with even more shiny inline buttons."
+
+	// Button texts
+	nextButton     = "Next"
+	backButton     = "Back"
+	tutorialButton = "Tutorial"
+
+	// Store bot screaming status
+	screaming = false
+	bot       *tgbotapi.BotAPI
+
+	// Keyboard layout for the first menu. One button, one row
+	firstMenuMarkup = tgbotapi.NewInlineKeyboardMarkup(
+		tgbotapi.NewInlineKeyboardRow(
+			tgbotapi.NewInlineKeyboardButtonData(nextButton, nextButton),
+		),
+	)
+
+	// Keyboard layout for the second menu. Two buttons, one per row
+	secondMenuMarkup = tgbotapi.NewInlineKeyboardMarkup(
+		tgbotapi.NewInlineKeyboardRow(
+			tgbotapi.NewInlineKeyboardButtonData(backButton, backButton),
+		),
+		tgbotapi.NewInlineKeyboardRow(
+			tgbotapi.NewInlineKeyboardButtonURL(tutorialButton, "https://core.telegram.org/bots/api"),
+		),
+	)
+)
+
+func sendMenu(chatId int64) error {
+	msg := tgbotapi.NewMessage(chatId, firstMenu)
+	msg.ParseMode = tgbotapi.ModeHTML
+	msg.ReplyMarkup = firstMenuMarkup
+	_, err := bot.Send(msg)
+	return err
+}
+*/

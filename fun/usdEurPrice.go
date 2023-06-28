@@ -50,3 +50,5 @@ func GetEuRate() string {
 	resp = "Евро: " + fmt.Sprintf("%v", result["Valute"].(map[string]interface{})["EUR"].(map[string]interface{})["Value"]) + " рублей (по ЦБ)"
 	return resp
 }
+
+//TODO Добавить кнопки для получения курса валют и битка
