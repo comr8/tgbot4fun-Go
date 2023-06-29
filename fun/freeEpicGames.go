@@ -32,7 +32,7 @@ func GetFreeGames() string {
 	return resp
 }
 
-//TODO Переделать метод с апи rapidapi, на метод о эпиков. Работает просто GET, без авторизации
+//TODO Переделать метод с rapidapi, на метод о эпиков. Работает просто GET, без авторизации
 /* curl 'https://store-site-backend-static-ipv4.ak.epicgames.com/freeGamesPromotions?locale=en-US&country=RU&allowCountries=RU' \
 -H 'authority: store-site-backend-static-ipv4.ak.epicgames.com' \
 -H 'accept: application/json, text/plain, *\/*' \
